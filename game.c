@@ -34,9 +34,11 @@ int main()
     // Uzivatel si vybere obtiznost, nebo vypne hru, (loop pro blbuvzdornost)
     while (vyber_menu < 1 || vyber_menu > 6)
     {
+        p(">> GUESSING NUMBER GAME <<\n\n");
+        p("Obtiznosti:\n");
         p("[1] Lekha - rozmezi 1-10, 4 pokusy\n");
         p("[2] Stredni - rozmezi 1-50, 7 pokusu\n");
-        p("[3] Tezka - rozmezi 1-100, 9 pokusu\n");
+        p("[3] Tezka - rozmezi 1-100, 9 pokusu\n\n");
         p("[4] Jak hra funguje\n");
         p("[5] Nastaveni\n");
         p("[6] Ukonceni hry\n\n");
