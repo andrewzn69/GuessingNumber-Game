@@ -120,9 +120,9 @@ int main()
         if (zadana_hodnota > 0)
         {
             if (napoveda == 'Y' && guess < randomnum)
-                p("Cislo je vetsi!\n\n");
+                p("Generovane cislo je vetsi!\n\n");
             else if (napoveda == 'Y' && guess > randomnum)
-                p("Cislo je mensi!\n\n");
+                p("Generovane cislo je mensi!\n\n");
         }
 
         // Hlavni otazka
