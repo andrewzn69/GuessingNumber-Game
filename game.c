@@ -161,7 +161,7 @@ int main()
             p("Cislo bylo: %d\n", randomnum);
 
             // Program se pta uzivatele, jestli chce opakovat hru
-            p("Chces to opakovat znova? (y/n)\n\n");
+            p("Chces to opakovat znovu? (y/n)\n\n");
             scanf(" %c", &repeat);
             system("cls");
 
