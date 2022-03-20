@@ -39,7 +39,7 @@ int main()
         p("[1] Lekha - rozmezi 1-10, 4 pokusy\n");
         p("[2] Stredni - rozmezi 1-50, 7 pokusu\n");
         p("[3] Tezka - rozmezi 1-100, 9 pokusu\n\n");
-        p("[4] Jak hra funguje\n");
+        p("[4] Info o hre\n");
         p("[5] Nastaveni\n");
         p("[6] Ukonceni hry\n\n");
         scanf("%d", &vyber_menu);
@@ -48,7 +48,6 @@ int main()
         // Urcime si hodnoty (nebo vypneme program) podle toho, co si uzivatel vybral
         switch (vyber_menu)
         {
-
         // 1. Obtiznost
         case 1:
             lives = 4;
@@ -77,6 +76,7 @@ int main()
         case 4:
             system("cls");
             p("V teto hre musis uhodnout nahodne vygenerovane cislo\n");
+            p("Autor hry: Ondrej Zeman, IT1B\n\n");
             p("Pro navrat do menu zmackni [ENTER]\n\n");
             getchar();
             getchar();
